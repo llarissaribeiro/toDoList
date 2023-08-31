@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400&display=swap" rel="stylesheet">
+</head>
+<body onload="startTime()">
+    <div class="todocontainer">
+        <div class="todo-header">
+            <p class="app-name">Todo list</p>
+        </div>
+
+        <div class="container-body">
+            <div class="time-date">
+                <p id="time"></p>
+                <p id="date"></p>
+            </div>
+            <div class="todo-item">
+                <ul id="listTask">
+
+                </ul>
+            </div>
+        </div>
+        <div class="add-item">
+            <input type="text" placeholder="Digite a tarefa" id="new-item">
+            <input type="button" value="ADICIONAR" id="addButton" >
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
