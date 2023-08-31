@@ -68,7 +68,11 @@ function showTasks(){
 //recarregar items quando fecha a tela
 function reloadTasks(){
     const tasksLocalStorage = localStorage.getItem('list')
-    myToDoList = JSON.parse(tasksLocalStorage)
+
+    if(tasksLocalStorage){
+        myToDoList = JSON.parse(tasksLocalStorage)
+    }
+    
     showTasks()
 }
 
