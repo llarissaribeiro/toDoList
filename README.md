@@ -7,7 +7,7 @@
 <h1>🧮 Funcionalidades</h1>
 <br> - Criar e adicionar novas tarefas.
 <br> - Remover tarefa.
-<br> - Marcar tarefa como concluída (muda a cor do input para ver). 
+<br> - Marcar tarefa como concluída (muda a cor do input para verde). 
 <br> - Armazenar as tarefas criadas no local storage.
 
 <h1>💻 Deploy da Aplicação com GitHub Pages</h1>
